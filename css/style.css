@@ -29,7 +29,7 @@ h6 {
 
 p {
   font-size: 18px;
-  color: #979797;
+  color: #575757;
   line-height: 1.8;
 }
 
@@ -85,7 +85,10 @@ ol {
 }
 
 .section-title span {
-  color: #979797;
+  /*color: #979797;*/
+  /*color:#5C5C5C*/
+  color:#3366FF;
+
 }
 
 /*------------------------
@@ -162,7 +165,8 @@ ol {
   position: relative;
   color: #fff;
   border: none;
-  background-color: #000;
+  background-color:#3366FF;
+  /*background-color: #000;*/
   margin-right: 15px;
   z-index: 1;
 }
