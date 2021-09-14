@@ -12,7 +12,9 @@
 html,
 body {
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -23,8 +25,10 @@ h5,
 h6 {
   color: #001418;
   margin: 0;
-  font-weight: 600;
-  font-family: 'Josefin Sans', sans-serif;
+  /*font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
 }
 
 p {
@@ -60,7 +64,8 @@ ol {
   Helper css
 --------------------------*/
 .current{
-  font-weight: bold;
+  font-weight: 700;
+  text-decoration: underline;
 
 }
 .body-pad {
@@ -87,7 +92,7 @@ ol {
 .section-title span {
   /*color: #979797;*/
   /*color:#5C5C5C*/
-  color:#3366FF;
+  color:#121212;
 
 }
 
@@ -360,6 +365,14 @@ ol {
     Header Section
 --------------------------*/
 .header-section {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.header-section2{
+  padding-left: 40px;
+  padding-right:40px;
   padding-top: 30px;
   padding-bottom: 20px;
   position: relative;
